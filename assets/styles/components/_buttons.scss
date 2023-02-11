@@ -1,0 +1,46 @@
+﻿.btn {
+  @apply px-3 py-1.5 rounded;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  /*Sizes*/
+  &-sm {
+    @apply py-1 px-2 text-sm rounded-sm;
+  }
+
+  &-lg {
+    @apply py-2 px-4 text-xl rounded-md;
+  }
+
+  /*Colors*/
+  &-primary {
+    @apply text-white bg-blue-500 hover:bg-blue-600;
+  }
+
+  &-secondary {
+    @apply text-white bg-gray-500 hover:bg-gray-600;
+  }
+
+  &-success {
+    @apply text-white bg-green-500 hover:bg-green-600;
+  }
+
+  &-danger {
+    @apply text-white bg-red-500 hover:bg-red-600;
+  }
+
+  &-warning {
+    @apply text-white bg-yellow-500 hover:bg-yellow-600;
+  }
+
+  &-info {
+    @apply text-white bg-blue-400 hover:bg-blue-500;
+  }
+
+  &-light {
+    @apply text-gray-800 bg-gray-50 hover:bg-gray-100;
+  }
+
+  &-dark {
+    @apply text-white bg-gray-700 hover:bg-gray-900;
+  }
+}
